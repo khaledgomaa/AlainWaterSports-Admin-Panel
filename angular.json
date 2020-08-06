@@ -23,10 +23,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
+          
+
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/slick-carousel/slick/slick.scss",
+              "./node_modules/slick-carousel/slick/slick-theme.scss"
+
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/slick-carousel/slick/slick.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "admin-panel"
+    }
+  },
+  "defaultProject": "admin-panel",
+  "cli": {
+    "analytics": "5c08e5d0-ed20-4119-8808-54daf06b056a"
+  }
 }
